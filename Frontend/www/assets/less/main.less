@@ -1,3 +1,66 @@
 @mainColor: blue;
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.thumbnail {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+.row {
+  margin-top: 100px;
+  margin-right: 330px;
+}
+
+.div {
+  display: block;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
 
 @import "pizza/pizza-card";
+@import "header-top-row.less";
+@import "right-panel.less";
+@import "discount-panel.less";
